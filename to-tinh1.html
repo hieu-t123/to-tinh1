@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tớ có điều muốn nói...</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe0e6, #ffc3a0);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+    .heart {
+      font-size: 80px;
+      color: red;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.3);
+      }
+    }
+    .msg {
+      margin-top: 30px;
+      font-size: 24px;
+      background-color: #fff0f3;
+      padding: 20px;
+      border-radius: 20px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+    }
+    .btn {
+      margin-top: 40px;
+      font-size: 20px;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff4d6d;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #ff1a40;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <div class="msg">
+    <p>Hì hì... tớ có chuyện này muốn nói với cậu nè...</p>
+    <p><strong>Tớ thích cậu! 💌</strong></p>
+  </div>
+  <br>
+  <button class="btn" onclick="alert('Hehe,
